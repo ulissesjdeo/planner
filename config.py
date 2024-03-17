@@ -1,11 +1,7 @@
-# Line separator
-separator = '——————————————————————————————————————————————————'
-
-# Separator in start and end
-separator_start = separator_end = '|'
-
-# Spaces between separators
-start_spaces = end_spaces = 2
+# Interface
+separator = '—' * 50
+separator = '|'
+spaces = 2
 
 # If you want to clear you terminal
 CLEAR_TERMINAL = True
@@ -21,19 +17,19 @@ EXAM = {
 STUDIES = [
 	{
 		'title': 'Lições de Matemática',
-		'name': 'classes',
+		'type': 'classes',
 		'total': 1518,
 		'done': 269,
 	},
 	{
 		'title': 'Tópicos de Física',
-		'name': 'pages',
+		'type': 'pages',
 		'total': 1376,
 		'done': 152,
 	},
 	{
 		'title': 'Martha Reis',
-		'name': 'pages',
+		'type': 'pages',
 		'total': 867,
 		'done': 139,
 	},

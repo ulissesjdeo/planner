@@ -6,9 +6,9 @@ from config import *
 
 # Function to write the "table" in the screen
 def linify(content):
-    start_middle = separator_start + ' ' * start_spaces + content + ' ' * end_spaces
+    start_middle = separator + ' ' * spaces + content + ' ' * spaces
     spaces_to_add = max(0, len(separator) - len(start_middle))
-    line = start_middle + ' ' * (spaces_to_add - 1) + separator_end
+    line = start_middle + ' ' * (spaces_to_add - 1) + separator
     print(line)
 
 
