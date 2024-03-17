@@ -1,19 +1,40 @@
-SEPARATOR = '——————————————————————————————————————————————————————'
-SEPARATOR_START = '|    '
-SEPARATOR_END = ' |'
+# Line separator
+separator = '——————————————————————————————————————————————————'
 
-DAYS_BEFORE_EXAM_FOR_EARLY_STUDY_END = 60
+# Separator in start and end
+separator_start = separator_end = '|'
 
-ITA_EXAM_DAY = 8
-ITA_EXAM_MONTH = 10
-ITA_EXAM_YEAR = 2024
+# Spaces between separators
+start_spaces = end_spaces = 2
 
-AULAS_LICOES_DE_MATEMATICA = 1518
-PAGINAS_TOPICOS_DE_FISICA = 1376
-PAGINAS_MARTHA_REIS = 867
+# If you want to clear you terminal
+CLEAR_TERMINAL = True
 
-AULAS_FEITAS_LICOES_DE_MATEMATICA = 269
-PAGINAS_FEITAS_TOPICOS_DE_FISICA = 152
-PAGINAS_FEITAS_MARTHA_REIS = 139
+# Your exam
+EXAM = {
+	'name': 'ITA',
+	'date': '08/10/2024',
+	'days_before_goal': 60,
+}
 
-
+# Your studies
+STUDIES = [
+	{
+		'title': 'Lições de Matemática',
+		'name': 'classes',
+		'total': 1518,
+		'done': 269,
+	},
+	{
+		'title': 'Tópicos de Física',
+		'name': 'pages',
+		'total': 1376,
+		'done': 152,
+	},
+	{
+		'title': 'Martha Reis',
+		'name': 'pages',
+		'total': 867,
+		'done': 139,
+	},
+]
