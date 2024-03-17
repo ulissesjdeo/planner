@@ -1,5 +1,5 @@
 # Interface
-separator = '—' * 50
+separator_line = '—' * 50
 separator = '|'
 spaces = 2
 
