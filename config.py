@@ -6,6 +6,9 @@ spaces = 2
 # If you want to clear you terminal
 CLEAR_TERMINAL = True
 
+# Round to integer numbers
+ROUND = True
+
 # Your exam
 EXAM = {
 	'name': 'ITA',
@@ -19,7 +22,7 @@ STUDIES = [
 		'title': 'Lições de Matemática',
 		'type': 'classes',
 		'total': 1518,
-		'done': 269,
+		'done': 304,
 	},
 	{
 		'title': 'Tópicos de Física',
