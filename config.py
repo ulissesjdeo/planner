@@ -22,7 +22,7 @@ STUDIES = [
 		'title': 'Lições de Matemática',
 		'type': 'classes',
 		'total': 1518,
-		'done': 304,
+		'done': 347,
 	},
 	{
 		'title': 'Tópicos de Física',
@@ -34,6 +34,6 @@ STUDIES = [
 		'title': 'Martha Reis',
 		'type': 'pages',
 		'total': 867,
-		'done': 139,
+		'done': 160,
 	},
 ]
