@@ -34,6 +34,6 @@ STUDIES = [
 		'title': 'Martha Reis',
 		'type': 'pages',
 		'total': 867,
-		'done': 160,
+		'done': 181,
 	},
 ]
