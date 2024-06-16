@@ -1,3 +1,5 @@
+# Planner
+
 Set up your `planner.py` like example below:
 
 ````python
@@ -22,4 +24,3 @@ EXAM = {
     'days_before_goal': 60,
 }
 ````
-# planner
